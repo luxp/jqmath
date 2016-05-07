@@ -1,0 +1,11 @@
+{
+  "name": "jqmath",
+  "version": "0.4.3",
+  "description": "jqmath",
+  "main": "jqmath-0.4.3.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
+}
