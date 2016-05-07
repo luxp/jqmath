@@ -3,9 +3,13 @@
 
 ## usage
 ### webpack
-- var parseMath = require('jqmath').parseMath
-- parseMath(document.body)
+```js
+var parseMath = require('jqmath').parseMath
+parseMath(document.body)
+```
 
 ### ES6
-- import {parseMath} from 'jqmath'
-- parseMath(document.body)
+```js
+import {parseMath} from 'jqmath'
+parseMath(document.body)
+```
