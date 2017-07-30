@@ -3,14 +3,25 @@
   "version": "0.4.6",
   "description": "a JavaScript module for symbolic expressions, e.g. formatted mathematical formulas",
   "main": "dist/jqmath.js",
-  "author": "Alan Lu",
-  "license": "MIT",
   "dependencies": {
     "jquery": "^2.2.3"
   },
   "scripts": {
     "build": "rm -r dist && rollup -c rollup.config.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luxp/jqmath.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luxp/jqmath/issues"
+  },
+  "homepage": "https://github.com/luxp/jqmath#readme",
+  "keywords": [
+    "jqmath"
+  ],
+  "author": "Alan Lu",
+  "license": "MIT",
   "devDependencies": {
     "cssnano": "^3.10.0",
     "rollup": "^0.45.2",
