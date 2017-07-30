@@ -16,7 +16,15 @@ parseMath(document.body)
 ```
 
 ## Examples
-- [a simple demo](https://luxp.github.io/jqmath)
+
+- [just a simple demo](https://luxp.github.io/jqmath)
+
+## Development Setup
+
+```
+npm install
+npm run build
+```
 
 ## License
 
