@@ -7,5 +7,14 @@
   "license": "MIT",
   "dependencies": {
     "jquery": "^2.2.3"
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "devDependencies": {
+    "cssnano": "^3.10.0",
+    "rollup": "^0.45.2",
+    "rollup-plugin-postcss": "^0.5.4",
+    "rollup-plugin-uglify": "^2.0.1"
   }
 }
