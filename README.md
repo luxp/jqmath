@@ -1,6 +1,7 @@
 # jqMath
 
-> a JavaScript module for symbolic expressions, e.g. formatted mathematical formulas. The official site is [http://www.mathscribe.com/author/jqmath.html](http://www.mathscribe.com/author/jqmath.html)
+> A JavaScript module for symbolic expressions, e.g. formatted mathematical formulas.  
+> The official site is [http://www.mathscribe.com/author/jqmath.html](http://www.mathscribe.com/author/jqmath.html)
 
 ## Installation
 
