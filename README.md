@@ -15,8 +15,10 @@ import {parseMath} from 'jqmath'
 parseMath(document.body)
 ```
 
-## Examples
-- [a simple demo](luxp.github.io/jqmath)
+## Demo
+- `cd demo`
+- `npm install`
+- `npm run dev`
 
 ## License
 
