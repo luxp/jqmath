@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jqMath demo</title>
+</head>
+<body>
+<div class="main-wrap">
+  <h1 class="title">
+    jqMath Demo
+  </h1>
+  <a
+    class="document-link"
+    href="http://mathscribe.com/author/jqmath.html"
+  >offical documentation</a>
+  <div class="demo-wrap">
+    <div class="input-title">
+      try to input some latex
+    </div>
+    <textarea
+      id="input"
+      placeholder="try to input some latex blow"
+    ></textarea>
+    <div
+      id="result"
+    ></div>
+    <p>If you use other software that generates MathML, you can include that here also:</p>
+    <math display="block">
+      <mrow>
+        <mi mathvariant="normal">&pi;</mi>
+        <mo>≈</mo>
+        <mfrac>
+          <mn>355</mn>
+          <mn>113</mn>
+        </mfrac>
+      </mrow>
+    </math>
+  </div>
+</div>
+<script src="./main-build.js"></script>
+</body>
+</html>

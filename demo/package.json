@@ -1,0 +1,29 @@
+{
+  "name": "jqmath-demo",
+  "version": "0.4.6",
+  "description": "demo for jqmath",
+  "main": "main.js",
+  "scripts": {
+    "dev": "rollup -c rollup.config.js --watch"
+  },
+  "keywords": [
+    "jqmath",
+    "demo"
+  ],
+  "author": "Alan Lu",
+  "license": "MIT",
+  "dependencies": {
+    "jqmath": "*",
+    "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {
+    "rollup": "^0.45.2",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-livereload": "^0.4.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-postcss": "^0.5.4",
+    "rollup-plugin-serve": "^0.4.0",
+    "rollup-watch": "^4.3.1",
+    "autoprefixer": "latest"
+  }
+}
