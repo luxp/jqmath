@@ -12,8 +12,7 @@ export default {
   external,
   plugins: [
     postcss({
-      plugins: [cssnano()],
-      extract : 'dist/jqmath.css'
+      plugins: [cssnano()]
     }),
     uglify({
       compress: {

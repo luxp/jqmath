@@ -9,7 +9,7 @@
     "jquery": "^2.2.3"
   },
   "scripts": {
-    "build": "rollup -c rollup.config.js"
+    "build": "rm -r dist && rollup -c rollup.config.js"
   },
   "devDependencies": {
     "cssnano": "^3.10.0",
