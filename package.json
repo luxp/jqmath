@@ -1,6 +1,6 @@
 {
   "name": "jqmath",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "description": "a JavaScript module for symbolic expressions, e.g. formatted mathematical formulas",
   "main": "dist/jqmath.js",
   "dependencies": {
