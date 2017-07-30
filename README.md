@@ -1,4 +1,4 @@
-# A jqmath wrapper for webpack
+# jaMath
 
 > jqmath is a wonderful library for rendering math in web. The official site is [http://www.mathscribe.com/author/jqmath.html](http://www.mathscribe.com/author/jqmath.html)
 
@@ -15,10 +15,8 @@ import {parseMath} from 'jqmath'
 parseMath(document.body)
 ```
 
-## Demo
-- `cd demo`
-- `npm install`
-- `npm run dev`
+## Examples
+- [a simple demo](https://luxp.github.io/jqmath)
 
 ## License
 
