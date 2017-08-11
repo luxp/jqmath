@@ -1,10 +1,10 @@
 {
   "name": "jqmath",
-  "version": "0.4.7",
+  "version": "0.4.8",
   "description": "a JavaScript module for symbolic expressions, e.g. formatted mathematical formulas",
   "main": "dist/jqmath.js",
   "dependencies": {
-    "jquery": "^2.2.3"
+    "jquery": "^3.2.1"
   },
   "scripts": {
     "build": "rm -r dist && rollup -c rollup.config.js"
@@ -24,7 +24,7 @@
   "license": "MIT",
   "devDependencies": {
     "cssnano": "^3.10.0",
-    "rollup": "^0.45.2",
+    "rollup": "^0.46.0",
     "rollup-plugin-postcss": "^0.5.4",
     "rollup-plugin-uglify": "^2.0.1"
   },
