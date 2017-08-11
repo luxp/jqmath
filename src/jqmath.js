@@ -1414,18 +1414,17 @@ M.parseMath = function (nod) {
 };
 M.parseMathQ = true;
 
-if ($.fn.parseMath == null)
+if ($.fn.parseMath == null) {
   $.fn.parseMath = function () {
     F.iter(M.parseMath, this);
     return this;
   };
+}
 
-export function parseMath (element) {
-  if (M.MathML === undefined) M.MathML = M.canMathML();
-  if (M.parseMathQ)
-    try {
-      M.parseMath(element);
-    } catch (exc) {
-      console.error(exc)
-    }
+export function parseMath(element) {
+  try {
+    M.parseMath(element);
+  } catch (exc) {
+    console.error(exc);
+  }
 }
