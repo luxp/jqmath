@@ -12,7 +12,7 @@ npm install --save jqmath
 ## Usage
 
 ```js
-import {parseMath} from 'jqmath'
+import {parseMath, M} from 'jqmath'
 parseMath(document.body)
 ```
 
