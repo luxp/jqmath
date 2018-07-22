@@ -1428,3 +1428,7 @@ export function parseMath(element) {
     console.error(exc);
   }
 }
+
+export {
+  M
+}
