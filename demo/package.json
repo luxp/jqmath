@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "autoprefixer": "latest",
-    "rollup": "^0.45.2",
+    "rollup": "^2.79.2",
     "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-livereload": "^0.4.0",
     "rollup-plugin-node-resolve": "^3.0.0",
